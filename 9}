@@ -1,0 +1,6 @@
+      invoke  active_record
+   identical    db/migrate/20160405093559_create_users.rb
+   identical    app/models/user.rb
+      invoke    test_unit
+   identical      test/models/user_test.rb
+    conflict      test/fixtures/users.yml

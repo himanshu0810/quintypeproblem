@@ -1,0 +1,26 @@
+
+<h2> All available Cabs</h2>
+
+<table>
+
+<tr>
+  <td>ID</td>
+  <td>Latitude</td>
+  <td>Longitude</td>
+  <td>Car Type</td>
+  
+</tr>
+
+<% @cabs.each do |cab| %>
+<tr>
+	<td><%= cab.id %>
+  <td><%= cab.latitude %></td>
+  <td><%= cab.longitude %></td>
+  <td><%= cab.car_type %></td>
+</tr>
+
+
+
+<% end %>
+
+</table>
